@@ -1,4 +1,4 @@
-package com.example.homework_md_ad_20_22
+package com.example.homework_md_ad_20_22.homework_1
 
 import java.util.*
 import kotlin.collections.HashMap
@@ -16,7 +16,6 @@ interface AbstractOperatorsPriorities {
 
     fun deleteOperator(operator: String?)
 }
-
 
 internal class OperatorsPriorities : AbstractOperatorsPriorities {
 
